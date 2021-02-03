@@ -3,18 +3,18 @@
 [https://github.com/panghaojie/classFind.git](https://github.com/panghaojie/classFind.git)
 
 ## npm
-[https://www.npmjs.com/package/classFind](https://www.npmjs.com/package/classFind)
+[https://www.npmjs.com/package/classfind](https://www.npmjs.com/package/classfind)
 
 # started
 ## install
 ```
-npm install classFind
+npm install classfind
 ```
 
 # api
-## qrcode
+## find
 ```javascript
-import { find }  from 'classFind'
+import { find }  from 'classfind'
 
 /**
  * @description: find data
@@ -25,4 +25,5 @@ console.log(result)
 
 ```
 ## 0.0.1.20210203
-init
+1.init
+2.modify read me

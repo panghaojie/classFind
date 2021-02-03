@@ -1,6 +1,6 @@
 {
   "name": "classfind",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "nodejs tools",
   "main": "index.js",
   "keywords": [
