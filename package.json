@@ -1,0 +1,35 @@
+{
+  "name": "classfind",
+  "version": "0.0.1",
+  "description": "nodejs tools",
+  "main": "index.js",
+  "keywords": [
+    "classFind",
+    "tools"
+  ],
+  "type":"module",
+  "scripts": {
+    "test": "node ./test/classFind.js",
+    "build": "babel ./es6-lib/classFind.js --presets babel-preset-es2015 --out-file ./lib/classFind.js",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/panghaojie/classFind.git"
+  },
+  "author": "panghaojie",
+  "license": "MIT ",
+  "bugs": {
+    "url": "https://github.com/panghaojie/classFind/issues"
+  },
+  "homepage": "https://github.com/panghaojie/classFind#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  }
+}
