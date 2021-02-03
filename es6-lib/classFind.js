@@ -3,9 +3,9 @@
  * @Author: panghaojie
  * @Email: pang_hao_jie@163.com
  * @Date: 2021-02-03 22:37:25
- * @LastEditTime: 2021-02-03 23:49:55
+ * @LastEditTime: 2021-02-04 00:03:06
  */
-export const find = (data) =>{
+export const find = (data,whereObj,key,type) =>{
     class classFind{
         constructor(data){
             this.data = data
@@ -28,5 +28,5 @@ export const find = (data) =>{
             return this
         }
     }
-    return new classFind(data)
+    return new classFind(data).where(whereObj).orderBy(key,type).data
 }

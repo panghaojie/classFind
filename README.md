@@ -18,10 +18,10 @@ import { find }  from 'classFind'
 
 /**
  * @description: find data
- * @param id(string): 'qrcode' ,id of dom
- * @param type(string): 'canvas' || 'img' || 'svg'
- * @param text(string): 'https://github.com/panghaojie/npm'
+ * @param data(Array): [{}]
  */
+var result = find(data,{"title": /\d$/},'userId', 'desc');
+console.log(result)
 
 ```
 ## 0.0.1.20210203
